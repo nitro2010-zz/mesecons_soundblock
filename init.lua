@@ -10,7 +10,7 @@ local on_digiline_receive = function (pos, _, channel, msg)
 				pos = pos,
 				max_hear_distance = heardistance,
 				gain = gain,
-			}, true)
+			})
 	end
 end
 
